@@ -1,0 +1,17 @@
+body,html{background-color:#000;color:#ccc;font-family:Helvetica;height:100vh}
+.uk-logo img{width:120px}
+nav{position:absolute!important;width:100%}
+.uk-navbar-item.uk-logo,.uk-navbar-right{z-index:999}
+.uk-navbar-nav>li>a{text-transform:lowercase!important;color:#fff!important;min-height:40px!important;padding:0!important;margin-right:20px;display:inline-block!important;font-weight:700}
+.uk-navbar-nav>li>a::after{content:'';display:block;width:0;height:2px;background:#fff;transition:width .3s}
+.uk-navbar-nav>li.uk-active>a::after,.uk-navbar-nav>li>a:hover::after{width:100%}
+#contact-info h1{font-size:15rem;font-weight:600;margin-left:-125%}
+.slides{cursor:grab;padding-top:25vh!important;height:75vh;overflow-x:scroll;scroll-behavior:smooth;-webkit-overflow-scrolling:touch;scroll-snap-type:mandatory}
+.slides::-webkit-scrollbar{height:2px;display:none}
+.slides::-webkit-scrollbar-thumb{background:#fff}
+.slides::-webkit-scrollbar-track{background:#a5a7ac}
+.uk-overlay-primary.uk-position-cover{background:rgba(0,0,0,.8);display:none;transition:display 5s}
+.slides h3{color:#fff;margin-left:20px;margin-top:25px}
+@media screen and (max-width:640px){
+#contact-info h1{font-size:-webkit-xxx-large;font-weight:600;margin-left:0}
+}
